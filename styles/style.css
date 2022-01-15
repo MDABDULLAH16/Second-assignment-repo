@@ -1,0 +1,75 @@
+
+/*.............
+google font 
+............... */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+ /* ...........
+ font awesome  
+ .............*/
+
+
+/* body{ */
+    /* background-color: slategrey; */
+
+/* } */
+
+  
+  
+
+
+.title-inflow{
+    margin-top: 40px;
+    margin-left: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    
+}
+.main-title{
+    font-size: 3em;
+    font-weight: 700;
+}
+.link-button{
+    background-color: salmon;
+    border-radius: 15px;
+    border: 1px solid salmon;
+    padding: 5px 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+
+}
+/* ................
+first section css 
+.................... */
+.first-section{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+}
+.first-div{
+    width: 400px;
+    margin-left: 50px;
+}
+.second-div{
+    background-image: url(/images/Circle\ design.svg);
+    
+    margin-right: 50px;
+    margin-top: 0;
+}
+hr{
+    margin-top: 2em;
+    /* border: 1px solid rgb(231, 19, 19); */
+    margin-bottom: 0px;
+    margin-left: 60px;
+    margin-right: 60px;
+    
+}
+.logo{
+    width: 100px;
+    padding: 0;
+   
+    margin-left: 60px;
+    margin-bottom: 0;
+    margin-top: 1em;
+}
