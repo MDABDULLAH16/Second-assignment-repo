@@ -64,6 +64,7 @@ first section css
 }
 .second-div{
     background-image: url(/images/Circle\ design.svg);
+    background-repeat: no-repeat;
     
     margin-right: 50px;
     margin-top: 0;
@@ -189,6 +190,8 @@ hr{
   /*............
    media quary 
    ................ */
+
+   /* mobile devices  */
    @media  only screen and ( max-width:688px) {
        .first-section{
            display: flex;
@@ -208,7 +211,7 @@ hr{
         .my-section{
             display: flex;
             flex-direction: column;
-            margin: auto;
+            margin-left: 0;
             justify-content: center;
         }
         .first-box{
@@ -218,11 +221,41 @@ hr{
             
         }
         .images{
-            margin-left: 0;
+            margin: 0;
         }
         .footer-style{
             justify-content: center;
         }
 
+       
+   }
+
+   /* tablet divices  */
+   @media only screen and (min-width: 688px) and (max-width: 992px) {
+    .first-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+    .second-div img{
+        width: 100%;
+    }
+    .main-container{
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(2, 1fr);}
+
+        .my-section{
+            display: grid;
+          grid-template-columns: repeat(2,1fr);
+          grid-column-gap: 10px;
+           margin-left: 0;
+            justify-content: space-between;
+        }
+        .images{
+            margin-left: 30px;
+        }
+       
        
    }
