@@ -3,18 +3,31 @@
 google font 
 ............... */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
- /* ...........
- font awesome  
- .............*/
 
 
-/* body{ */
-    /* background-color: slategrey; */
+/*...........
+ navigation 
+ ............ */
+  .navigation{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
 
-/* } */
-
-  
-
+  ul{
+      display: flex;
+      margin-right: 20px;
+  }
+  li{
+      list-style: none;
+      padding: 5px;
+  }
+  a{
+      text-decoration: none;
+      color: black;
+      padding: 5px;
+      margin-right: 20px;
+  }
 
 .title-inflow{
     margin-top: 40px;
@@ -44,7 +57,6 @@ first section css
 .first-section{
     display: flex;
     justify-content: space-between;
-    /* border: 1px solid red; */
 }
 .first-div{
     width: 400px;
@@ -58,7 +70,7 @@ first section css
 }
 hr{
     margin-top: 2em;
-    /* border: 1px solid rgb(231, 19, 19); */
+   
     margin-bottom: 0px;
     margin-left: 60px;
     margin-right: 60px;
@@ -144,3 +156,32 @@ hr{
      margin-right: 120px;
      margin-top: 3px;
  }
+ /* .............
+ last section 
+ ............... */
+ .my-section{
+     display: flex;
+     justify-content: space-around;
+     padding-bottom: 60px;
+     
+
+ }
+ .last-title{
+     width: 400px;
+     margin-right: 80px;
+ }
+ .images{
+     margin-left: 100px;
+    
+ }
+ /*...........
+  footer style 
+  .............*/
+  .footer-style{
+      color: white;
+      text-align: center;
+      background-color: indigo;
+      padding-top: 20px;
+      padding-bottom: 5px;
+  }
+
