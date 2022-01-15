@@ -59,7 +59,7 @@ first section css
     justify-content: space-between;
 }
 .first-div{
-    width: 400px;
+   
     margin-left: 50px;
 }
 .second-div{
@@ -185,3 +185,44 @@ hr{
       padding-bottom: 5px;
   }
 
+
+  /*............
+   media quary 
+   ................ */
+   @media  only screen and ( max-width:688px) {
+       .first-section{
+           display: flex;
+           flex-direction: column;
+           justify-content: center;
+           width: 100%;
+       }
+       .second-div img{
+           width: 100%;
+       }
+        .main-container{
+            display: grid;
+            justify-content: center;
+            grid-template-columns: repeat(1, 1fr);
+           
+        }
+        .my-section{
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+            justify-content: center;
+        }
+        .first-box{
+            margin: auto;
+            justify-content: center;
+
+            
+        }
+        .images{
+            margin-left: 0;
+        }
+        .footer-style{
+            justify-content: center;
+        }
+
+       
+   }
